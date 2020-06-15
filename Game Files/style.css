@@ -30,16 +30,19 @@ header {
   flex-direction: row;
   align-content: space-between;
   width: 100vw;
+  color: white;
 }
 
 .side1 {
   flex-grow: 1;
   text-align: center;
+  background-color: #405d27;
 }
 
 .side2 {
   flex-grow: 1;
   text-align: center;
+  background-color: #484f4f;
 }
 
 .event {
@@ -51,5 +54,9 @@ h1 {
 }
 
 h3 {
+  font-size: 2rem;
+}
+
+h4 {
   font-size: 2rem;
 }
